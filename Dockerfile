@@ -5,5 +5,6 @@ RUN apt update  && \
                    python3-pip  \
                    openssh-client \
                    python3-apt  \
-                   vim && \
+                   vim \
+                   curl && \
     pip3 install ansible
