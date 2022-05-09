@@ -43,6 +43,7 @@ jobs:
             clemontx/ansible
           # Docker tags based on the following events/attributes
           tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
             type=schedule
             type=ref,event=branch
             type=ref,event=pr
